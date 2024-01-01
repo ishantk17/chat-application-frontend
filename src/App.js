@@ -13,7 +13,7 @@ function App() {
   const enter = async (loginData) => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/user/login",
+        "https://server-chat-app-trkp.onrender.com/api/user/login",
         loginData
       );
       const token1 = res.headers.authorization;
@@ -28,8 +28,8 @@ function App() {
 
   return (
     <div className="App">
-       {isLogin ? (
-        <Dashboard token={token}/>
+      {isLogin ? (
+        <Dashboard token={token} />
       ) : (
         <Home
           isLogin={isLogin}

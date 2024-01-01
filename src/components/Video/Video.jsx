@@ -3,7 +3,6 @@ import { FaMicrophone } from "react-icons/fa";
 import { IoVolumeMedium } from "react-icons/io5";
 import { TiVideo } from "react-icons/ti";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-import MicSvg from '../svg/micSvg';
 import './Video.css'
 
 function Video({clientMessage,setClientMessage,isOpen,setIsOpen,setScript,isListening,setIsListening,setSend}) {

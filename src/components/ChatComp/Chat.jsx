@@ -20,7 +20,7 @@ function Chat({
   const fetchPrevChats = async () => {
     try {
       const accessToken = token; // Replace with your actual access token
-      const apiUrl = "http://localhost:5000/api/chat/fetch"; // Replace with your API endpoint
+      const apiUrl = "https://server-chat-app-trkp.onrender.com/api/chat/fetch"; // Replace with your API endpoint
 
       const axiosConfig = {
         headers: {
