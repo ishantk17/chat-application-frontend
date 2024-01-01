@@ -1,0 +1,41 @@
+/* Auth.css */
+.LoginPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .LoginPageContainer h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .LoginPageContainer form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .LoginPageContainer form .email, .LoginPageContainer form .pass {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .LoginPageContainer form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    color: white;
+    cursor: pointer;
+  }
+  

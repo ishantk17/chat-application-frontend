@@ -1,0 +1,13 @@
+body {
+  background-image: url("../src/components/img/Background.png");
+
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+
+  height: 100vh;
+  background-position: center;
+
+  background-size: cover;
+  position: relative;
+}
